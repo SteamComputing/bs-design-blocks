@@ -1,0 +1,10 @@
+.closed-gutters {
+  margin-right: -1;
+  margin-left:  -1;
+
+  > .col,
+  > [class*="col-"] {
+    padding-right: 1px;
+    padding-left:  1px;
+  }
+}

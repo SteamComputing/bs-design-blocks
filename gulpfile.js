@@ -49,7 +49,7 @@ var build = function (dest) {
 
   gulp.task('pug-' + dest, function () {
     var blocks = {}
-    var blks = ['call-to-action', 'contacts', 'contents', 'features', 'footers', 'forms', 'headers', 'pricings', 'teams', 'testimonials']
+    var blks = ['call-to-action', 'contacts', 'contents', 'features', 'footers', 'forms', 'headers', 'pricings', 'teams', 'testimonials', 'products', 'sharestickers']
     for (var i = 0; i < blks.length; i++) {
       blocks[blks[i]] = getBlocks('src/html/' + blks[i])
     }
